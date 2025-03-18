@@ -10,28 +10,28 @@
   <title>Landing Page</title>
 </head>
 <body>
-  <header class="flex justify-between items-center shadow-sm px-[100px] py-[5px]">
-    <div class="container flex justify-between items-center m-[20px]">
-      <img src="./resources/Logo.png" alt="">
+  <header class="flex justify-between items-center shadow-md px-[100px] bg-[#F5F7FA]">
+    <div class="container flex justify-between items-center">
+      <a href="index.html"><img src="./resources/Logo.png" alt=""></a>
       <nav>
         <ul class="flex items-center gap-[16px]">
-          <li class=""><a href="#" class="text-gray-600 font-semibold ">Home</a></li>
-          <li><a href="#" class="text-gray-600 font-semibold">Features</a></li>
-          <li><a href="#" class="text-gray-600 font-semibold">Community</a></li>
-          <li><a href="#" class="text-gray-600 font-semibold">Blog</a></li>
-          <li><a href="#" class="text-gray-600 font-semibold">Pricing</a></li>
-          <button class="bg-green-500 px-[22px] py-[10px] rounded-md text-white">Register Now</button>
+          <li class="text-primary text-xl font-bold"><a href="#">Home</a></li>
+          <li class="menus"><a href="#">Features</a></li>
+          <li class="menus"><a href="#">Community</a></li>
+          <li class="menus"><a href="#">Blog</a></li>
+          <li class="menus"><a href="#">Pricing</a></li>
         </ul>
       </nav>
+      <button class="btn"><a href="">Register Now</a></button>
     </div>
   </header>
   <main>
-    <section class="px-[100px] py-[66px] bg-[#F5F7FA]">
+    <section class="px-[100px] py-[20px] bg-[#F5F7FA]">
       <div class="flex justify-between items-center my-[94px]">
         <div class="w-[640px] h-[193px]">
-          <h1 class="text-[44.5px] font-[600] my-[12px]">if you can <span class="text-green-600">Dream</span> it, <span class="text-green-600">Visualize</span> it, We can <span class="text-green-600">Design</span> it.</h1>
+          <h1 class="text-[44.5px] font-[600] my-[12px]">If you can <span class="text-green-600">Dream</span> it, <span class="text-green-600">Visualize</span> it, We can <span class="text-green-600">Design</span> it.</h1>
           <p class="my-[23px] text-gray-600 font-semibold">Your best plug to bring your digital ideas to live, and concert already existing one</p>
-          <button class="bg-green-600 px-[22px] py-[10px] rounded-md text-white font-semibold">Register</button>
+          <button class="btn"><a href="#">Register</a></button>
         </div>
         <div>
           <img src="./resources/Illustration.png" alt="" class="w-[320px] h-[320px]">
@@ -88,7 +88,7 @@
       <div class="w-[60%]">
         <h3 class="text-[32px] font-[700] text-[#4D4D4D] pr-6 mb-[10px]">The process of bringing Idea to live</h3>
         <p class="text-[#717171] mb-[20px]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio ipsam deserunt optio accusamus inventore molestiae quo recusandae ut asperiores officiis suscipit fugiat, itaque,  eaque fugit veniam quas aliquam mollitia beatae. Nsectetur exercitationem fuga veniam eos ex molestias a iusto ad dicta labore?</p>
-        <button class="bg-green-500 text-white px-[22px] py-[10px] rounded-md ">Learn More</button>
+        <button class="btn"><a href="#">Learn More</a></button>
       </div>
     </section>
     <section class="px-[100px] py-[60px] bg-[#F5F7FA] flex justify-between items-center gap-[16px]">
@@ -160,40 +160,102 @@
           <span><img src="./resources/clients/Logo-3.png" alt="founder-logo"></span>
           <span><img src="./resources/clients/Logo-4.png" alt="founder-logo"></span>
           <span><img src="./resources/clients/Logo-5.png" alt="founder-logo"></span>
-          <span class="text-green-600">See all customers <span><i></i></span></span>
+          <span class="text-green-600">See all customers <span>&#8594;</span></span>
         </div>
       </div>
     </section>
-    <section class="px-[100px] py-[60px]">
-      <div class="text-center">
+    <section class="px-[100px] py-[100px]">
+      <div class="text-center mb-[60px] w-[600px] mx-auto">
         <h2 class="text-[32px] font-[700] text-[#4D4D4D] pr-6 mb-[10px]">Caring is the new marketing</h2>
         <p class="text-[#717171] mb-[20px]">Lorem ipsum dolor sit, amet, dolore fugiat exercitationem facilis cupiditate corporis rerum omnis quasi, dignissimos accusantium illum atque ex iste incidunt hic aspernatur deleniti iure alias.</p>
       </div>
-      <div class="grid grid-cols-[1fr_1fr_1fr] place-items-center gap-[20px]">
-        <img src="./resources/clients/image 18.png" alt="" class="w=[300px] h-[300px]">
-        <img src="./resources/clients/image 19.png" alt="" class="w=[300px] h-[300px]">
-        <img src="./resources/clients/image 20.png" alt="" class="w=[300px] h-[300px]">
-      </div>
-      <div  class="grid grid-cols-[1fr_1fr_1fr] place-items-center gap-[20px] text-center -mt-[100px]">
-        <div class="w-[105.84px] h-[60.37px] p-[100px] m-[100px] bg-white">
-          <p class="text-[#717171] mb-[20px]">creating streamlined safeguarding processes with Nextrev</p>
-          <p class="text-green-600">Readmore <span><i></i></span></p>
+      
+      <div class="flex flex-wrap gap-5 justify-center items-center lg:justify-between">
+        <div class="flex flex-col items-center md:basis-5/12 lg:basis-3/12 text-center gap-3">
+          <div>
+            <img src="./resources/clients/image 18.png" alt="" class="w-[350px]">
+          </div>
+          <div class=" bg-white text-center w-[250px] flex flex-col gap-5 -mt-20 p-3 rounded-xl items-center text-xl shadow-lg">
+            <p class="text-[#717171]">creating streamlined safeguarding processes with Nextrev</p>
+            <p class="text-green-600">Readmore <span>&#8594;</span></span></p>
+          </div>
         </div>
-        <div class="w-[100px]">
-          <p class="text-[#717171] mb-[20px]">creating streamlined safeguarding processes with Nextrev</p>
-          <p class="text-green-600">Readmore <span><i></i></span></p>
+        <div class="flex flex-col items-center md:basis-5/12 lg:basis-3/12 text-center gap-3">
+          <div>
+            <img src="./resources/clients/image 19.png" alt="" class="w-[350px]">
+          </div>
+          <div class=" bg-white text-center w-[250px] flex flex-col gap-5 -mt-20 p-3 rounded-xl items-center text-xl shadow-lg">
+            <p class="text-[#717171]">creating streamlined safeguarding processes with Nextrev</p>
+            <p class="text-green-600">Readmore <span>&#8594;</span></p>
+          </div>
         </div>
-        <div class="w-[100px]">
-          <p class="text-[#717171] mb-[20px]">creating streamlined safeguarding processes with Nextrev</p>
-          <p class="text-green-600">Readmore <span><i></i></span></p>
+        <div class="flex flex-col items-center md:basis-5/12 lg:basis-3/12 text-center gap-3">
+          <div>
+            <img src="./resources/clients/image 20.png" alt="" class="w-[350px]">
+          </div>
+          <div  class=" bg-white text-center w-[250px] flex flex-col gap-5 -mt-20 p-3 rounded-xl items-center text-xl shadow-lg">
+            <p class="text-[#717171]">creating streamlined safeguarding processes with Nextrev</p>
+            <p class="text-green-600">Readmore <span>&#8594;</span></p>
+          </div>
         </div>
       </div>
     </section>   
-
-    <footer>
-      
-    </footer>
   </main>
+
+  <footer class="bg-black text-white">
+    <div class="container flex flex-wrap gap-y-5 justify-between">
+      <div class="flex flex-col gap-5 basis-full sm:basis-5/12 lg:basis-4/12">
+        <a
+          class="flex gap-0 mx-auto md:m-0 items-center text-white text-3xl font-bold"
+          href="./index.html"
+          ><img src="./resources/Logo.png"/></a>
+        <p class="text-center md:text-start text-white">
+          Copyright &copy; 2020 Nexcent ltd.<br class="hidden sm:block" />All rights
+          reserved
+        </p>
+        <div class="flex items-center justify-center lg:justify-start gap-7">
+          <i class="fa-brands fa-facebook icons"></i>
+          <i class="fa-brands fa-instagram icons"></i>
+          <i class="fa-brands fa-x-twitter icons"></i>
+          <i class="fa-brands fa-youtube icons"></i>
+        </div>
+      </div>
+  
+      <div class="basis-5/12 lg:basis-2/12">
+        <h5 class="mb-7 text-white">Company</h5>
+        <ul>
+          <li><a href="#" class="footerLinks">about us</a></li>
+          <li><a href="#" class="footerLinks">blog</a></li>
+          <li><a href="#" class="footerLinks">contact us</a></li>
+          <li><a href="#" class="footerLinks">pricing</a></li>
+          <li><a href="#" class="footerLinks">Testimonials</a></li>
+        </ul>
+      </div>
+      <div class="basis-5/12 lg:basis-2/12">
+        <h5 class="mb-7 text-white">Support</h5>
+        <ul>
+          <li><a href="#" class="footerLinks">help center</a></li>
+          <li><a href="#" class="footerLinks">terms of service</a></li>
+          <li><a href="#" class="footerLinks">legal</a></li>
+          <li><a href="#" class="footerLinks">privacy policy</a></li>
+          <li><a href="#" class="footerLinks">status</a></li>
+        </ul>
+      </div>
+      <div class="basis-full sm:basis-5/12 lg:basis-3/12">
+        <h5 class="mb-2 md:mb-7 text-center md:text-start text-white">
+          Stay up to date
+        </h5>
+        <div class="relative">
+          <input
+            type="search"
+            name=""
+            class="w-full rounded outline-none bg-[#5d6366] p-2"
+            placeholder="Your email address " />
+          <p class="absolute top-1/2 -translate-y-1/2 right-0">👉</p>
+        </div>
+      </div>
+    </div>          
+  </footer>
 </body>
 </html>
 

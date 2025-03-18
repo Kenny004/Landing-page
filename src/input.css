@@ -1,1 +1,24 @@
 @import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+
+.footerLinks {
+  @apply capitalize text-white/70 hover:text-white duration-100 transition-all;
+}
+@utility container {
+  margin-inline: auto;
+  padding: 2rem;
+}
+
+
+@theme {
+  --color-primary: #4CAf4f;
+  --font-inter: ""Inter", sans-serif";
+}
+.btn {
+  @apply cursor-pointer bg-primary px-[22px] py-[10px] rounded-md text-white;
+}
+
+.menus {
+  @apply capitalize text-gray-600 font-semibold hover:text-primary hover:text-xl hover:font-bold duration-300 transition-all font-inter;
+}
